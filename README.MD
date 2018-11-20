@@ -33,14 +33,14 @@ LibreOffice是OpenOffice.org 办公套件衍生版， 同样免费开源，以Mo
  其中使用的依赖可以有两个（我都做了对应的代码书写，分别是ComArtofsolving，OrgJodconverterTest）
  建议使用Org依赖，因为支持的转换格式多
 ##  2.2代码说明（官方代码，没有用到测试过，但是不太好需要自己去写转换的类型）
-        DocumentConverter(转换)</br>
-        DocumentLoader（加载，就是打开）</br>
-        DocumentPrinter（打印）</br>
-        DocumentSaver（保存）</b>
-        JacobTest（window jacob代码,自行在本地添加dll）</br>
-        OrgJodconverterTest（org包实现，）</br>
-        ComArtofsolving（com包实现）</b>
-        DownLoadTest（linxu ftp下载实现）</br>
+        DocumentConverter(转换)
+        DocumentLoader（加载，就是打开）
+        DocumentPrinter（打印）
+        DocumentSaver（保存）
+        JacobTest（window jacob代码,自行在本地添加dll）
+        OrgJodconverterTest（org包实现，）
+        ComArtofsolving（com包实现）
+        DownLoadTest（linxu ftp下载实现）
 ##  2.3 关于jacob 以及libreoffice 以及openoffice 对比
 详见 对比.excel
  
