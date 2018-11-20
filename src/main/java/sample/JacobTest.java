@@ -23,9 +23,10 @@ public class JacobTest {
     private static final int ppSaveAsPDF = 32;
 
     public static void main(String[] args) {
-
-        int time = convert2PDF("c:/温州说明20160325.doc", "c:/温州说明20160325.pdf");
-
+        long start=System.currentTimeMillis();
+        int time = convert2PDF("c:/【杭州市多规融合信息平台】软件使用操作手册.doc", "c:/温州说明20160325.pdf");
+        long end=System.currentTimeMillis();
+        System.out.println("时间:"+(end-start));
         if (time == -4) {
             System.out.println("转化失败，未知错误...");
         } else if(time == -3) {
