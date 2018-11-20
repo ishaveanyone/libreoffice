@@ -37,7 +37,7 @@ LibreOffice是OpenOffice.org 办公套件衍生版， 同样免费开源，以Mo
  DocumentPrinter（打印）
  DocumentSaver（保存）
  JacobTest（window jacob代码）
- OrgJodconverterTest（org包实现）
+ OrgJodconverterTest（org包实现，自行在本地添加dll）
  ComArtofsolving（com包实现）
  DownLoadTest（linxu ftp下载实现）
 # 关于jacob 以及libreoffice 以及openoffice 对比
