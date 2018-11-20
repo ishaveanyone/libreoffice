@@ -31,7 +31,7 @@ LibreOffice是OpenOffice.org 办公套件衍生版， 同样免费开源，以Mo
 #  2关于工程
 ##  2.1依赖
  其中使用的依赖可以有两个（我都做了对应的代码书写，分别是ComArtofsolving，OrgJodconverterTest）
- 建议使用Org依赖，因为支持的转换格式多
+ 建议使用Org依赖，因为支持的转换格式多,详见依赖对比图
 ##  2.2代码说明（官方代码，没有用到测试过，但是不太好需要自己去写转换的类型）
         DocumentConverter(官方代码，转换)
         DocumentLoader（官方代码，加载，就是打开）
