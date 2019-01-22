@@ -21,10 +21,14 @@ public class JacobTest {
     private static final int wdFormatPDF = 17;
     private static final int xlTypePDF = 0;
     private static final int ppSaveAsPDF = 32;
+    static {
 
+       System.setProperty("jacob.dll.path", "G:\\work_place_three\\libreoffice\\src\\main\\resources\\jacob-1.18-x64.dll");
+
+    }
     public static void main(String[] args) {
         long start=System.currentTimeMillis();
-        int time = convert2PDF("c:/【杭州市多规融合信息平台】软件使用操作手册.doc", "c:/温州说明20160325.pdf");
+        int time = convert2PDF("c:/test.doc", "c:/sssss.pdf");
         long end=System.currentTimeMillis();
         System.out.println("时间:"+(end-start));
         if (time == -4) {
